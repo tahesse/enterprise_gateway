@@ -7,7 +7,12 @@ name := "toree-launcher"
 
 version := sys.props.getOrElse("version", default = "1.0").replaceAll("dev[0-9]", "SNAPSHOT")
 
+<<<<<<< Updated upstream
 scalaVersion := "2.11.12"
+=======
+scalaVersion := "2.13.8"
+//scalaVersion := "2.12.12"
+>>>>>>> Stashed changes
 
 resolvers += "Typesafe Repo" at "https://repo.typesafe.com/typesafe/releases/"
 /* resolvers += "Sonatype Repository" at "https://oss.sonatype.org/content/repositories/releases/" */
